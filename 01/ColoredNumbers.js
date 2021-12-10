@@ -1,3 +1,5 @@
+// Запуск: node ./01/ColoredNumbers.js
+
 'use strict';
 
 const colors = require('colors');
