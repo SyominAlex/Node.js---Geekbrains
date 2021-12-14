@@ -17,4 +17,4 @@ const lesson2 = () => {
     })
 }
 
-// module.exports = lesson2;
+module.exports = lesson2;
