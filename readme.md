@@ -55,7 +55,7 @@ Promise.resolve().then(() => Promise.resolve().then(() => console.log('Record 6'
 
 **Задача 1.** По [ссылке](https://drive.google.com/file/d/1A8B0eDEagkO6XlpJAinsk8_9qQTsnVly/view) вы найдете файл с логами запросов к серверу весом более 2 Гб. Напишите программу, которая находит в этом файле все записи с ip-адресами 89.123.1.41 и 34.48.240.111, а также сохраняет их в отдельные файлы с названием “%ip-адрес%_requests.log”.
 - **Запуск решения:**
-  _**npm run hw3**_ выполнится скрипт из package.json "hw3": "node ./03/index.js".
+  _**npm run hw3**_ выполнится скрипт из package.json "hw3": "node index.js".
 
 ## Урок 4. CLI-приложения
 [https://gb.ru/lessons/190656/homework](https://gb.ru/lessons/190656/homework)
@@ -67,4 +67,15 @@ Promise.resolve().then(() => Promise.resolve().then(() => console.log('Record 6'
 * При чтении файлов искать в них заданную строку или паттерн.
 
 **Запуск решения:**
-    _**npm run hw3**_ выполнится скрипт из package.json "hw4": "node ./04/index.js".
+    _**npm run hw4**_ выполнится скрипт из package.json "hw4": "node index.js".
+
+## Урок 5. HTTP-cервер на Node.js
+[https://gb.ru/lessons/190657/homework](https://gb.ru/lessons/190657/homework)
+
+**Задача 1.** Используйте наработки из домашнего задания прошлого урока для того, чтобы создать веб-версию приложения. При запуске она должна:
+* Показывать содержимое текущей директории;
+* Давать возможность навигации по каталогам из исходной папки;
+* При выборе файла показывать его содержимое.
+
+**Запуск решения:**
+_**npm run hw5**_ выполнится скрипт из package.json "hw5": "node ./05/index.js".
