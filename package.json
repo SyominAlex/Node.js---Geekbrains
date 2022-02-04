@@ -10,6 +10,7 @@
     "hw3": "node index.js",
     "hw4": "node index.js",
     "hw5": "node ./05/index.js",
+    "hw6": "node ./06/index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,7 +18,11 @@
     "type": "git",
     "url": "git+https://github.com/SyominAlex/Node.js_Geekbrains.git"
   },
-  "keywords": ["Node.js", "JavaScript", "JS"],
+  "keywords": [
+    "Node.js",
+    "JavaScript",
+    "JS"
+  ],
   "author": "Syomin Alex",
   "license": "ISC",
   "bugs": {
@@ -31,6 +36,7 @@
     "moment": "^2.29.1",
     "nodemon": "^2.0.15",
     "prettier": "^2.5.1",
+    "socket.io": "^4.4.0",
     "yargs": "^17.3.0"
   },
   "devDependencies": {

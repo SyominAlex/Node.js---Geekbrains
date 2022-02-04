@@ -1,3 +1,3 @@
-const lesson5 = require("./05");
+const lesson4 = require("./04");
 
-lesson5();
+lesson4();
