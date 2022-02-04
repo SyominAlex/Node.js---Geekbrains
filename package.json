@@ -1,6 +1,6 @@
 {
   "name": "homeworks_nodejs",
-  "version": "1.0.0",
+  "version": "1.0.5",
   "description": "Практические работы по курсу Node.js от Geekbrains",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,8 @@
     "hw2_2": "node ./02/timer.js",
     "hw3": "node index.js",
     "hw4": "node index.js",
+    "hw5": "node ./05/index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
